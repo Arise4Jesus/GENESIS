@@ -1,0 +1,65 @@
+@font-face {
+  font-family: monserrat;
+  src: url(/fonts/montserrat.regular.ttf);
+}
+@font-face {
+  font-family: cinzel;
+  src: url(/fonts/Cinzel-Regular.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5);
+}
+
+nav {
+  position: absolute;
+  top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+nav img {
+  width: 4%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: monserrat;
+  transition: all 1s ease-in-out;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+nav a:hover {
+  background-color: rgb(4, 65, 4);
+  color: goldenrod;
+}
+
+.maintext {
+  position: absolute;
+  top: 30%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.maintext p {
+  font-family: monserrat;
+}
+
+.maintext h1 {
+  font-family: cinzel;
+  font-size: 3em;
+}/*# sourceMappingURL=index.css.map */
