@@ -19,15 +19,16 @@ video {
 
 nav {
   position: absolute;
-  top: 3%;
+  top: 4%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   align-items: center;
 }
 
 nav img {
   width: 4%;
+  position: absolute;
 }
 
 nav a {
@@ -57,9 +58,51 @@ nav a:hover {
 
 .maintext p {
   font-family: monserrat;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px black;
+}
+
+.maintext p span {
+  color: goldenrod;
 }
 
 .maintext h1 {
   font-family: cinzel;
-  font-size: 3em;
+  font-size: 4em;
+  margin-top: -1%;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px black;
+}
+
+h1 span {
+  color: goldenrod;
+}
+
+.explorelink {
+  background-color: goldenrod;
+  position: absolute;
+  margin-top: 15%;
+  width: 20%;
+  left: 40%;
+  font-size: large;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-family: monserrat;
+  color: rgb(4, 65, 4);
+  transition: all 1s ease-in-out;
+}
+
+.explorelink:hover {
+  background-color: rgb(4, 65, 4);
+  color: gold;
+}
+
+.maintext .maintext_p {
+  font-size: medium;
+  margin-top: 4%;
+  font-weight: lighter;
+  font-family: monserrat;
+  letter-spacing: normal;
 }/*# sourceMappingURL=index.css.map */
